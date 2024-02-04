@@ -15,7 +15,7 @@
 # └────────────────────────────────────────────────────────────────────────────────────────┘
 # Title        : ADV-Recon
 # Author       : Lenny Cook
-# Version      : 1.1
+# Version      : 1.2
 # Category     : Recon
 # Target       : Windows 10,11
 # Mode         : HID
@@ -311,7 +311,7 @@ $output = @"
 └────────────────────────────────────────────────────────────────────────────────────────┘
 Title        : ADV-Recon
 Author       : Lenny Cook
-Version      : 1.1
+Version      : 1.2
 Category     : Recon
 Target       : Windows 10,11
 Mode         : HID
@@ -553,4 +553,4 @@ Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 
 # Popup message to signal the payload is done
 
-$done = New-Object -ComObject Wscript.Shell;$done.Popup("Update Completed",1)
+$done = New-Object -ComObject Wscript.Shell;$done.Popup("Recon Completed",1)

